@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+  background-color: #00242C;
+  width: 100vw;
+  height: 100vw;
 }
+
+body {
+  margin: 0;
+  padding: 0; 
+ } 
 
 .App-logo {
   height: 40vmin;
@@ -25,7 +33,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #81E291;
 }
 
 @keyframes App-logo-spin {
