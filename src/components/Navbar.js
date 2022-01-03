@@ -6,7 +6,7 @@ import '../styles/Navbar.css'
 
 function Navbar() {
 
-    /* set variable for state to show/hide links */
+    /* set variable for state to show/hide links in the hiddenLinks className */
     const [openLinks] = useState(false)
 
     return (
@@ -20,7 +20,7 @@ function Navbar() {
                 <Link to='/jobs'> Jobs </Link>
                 <Link to='/home'> Control </Link>
                 </div>
-
+                
             </div>
 
             
@@ -32,7 +32,6 @@ function Navbar() {
                 <button>
                 <ReorderIcon />
                 </button>
-
             </div>
         </div>
     )

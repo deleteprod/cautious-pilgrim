@@ -1,11 +1,11 @@
 import React from 'react'
 
-function UserHome() {
+function Panel() {
     return (
         <div>
-            User Home Page
+            User Panel
         </div>
     )
 }
 
-export default UserHome
+export default Panel
