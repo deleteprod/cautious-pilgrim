@@ -3,7 +3,7 @@ import React from 'react'
 function Panel() {
     return (
         <div>
-            User Panel
+        <br />User Panel
         </div>
     )
 }
