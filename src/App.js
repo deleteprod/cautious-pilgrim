@@ -2,8 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import UserHome from './pages/UserHome';
-import About from './pages/About';
-import Settings from './pages/About';
+import Settings from './pages/Settings';
 import Jobs from './pages/Jobs';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -16,7 +15,6 @@ function App() {
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
       <Route path='/settings' element={<Settings />} />
       <Route path='/jobs' element={<Jobs />} />
       <Route path='/home' element={<UserHome />} />
