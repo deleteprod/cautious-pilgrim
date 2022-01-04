@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/devsci-logo.svg'
+import logo from '../assets/devsci.svg'
 import { Link } from 'react-router-dom'
 import ReorderIcon from '@mui/icons-material/Reorder';
 import TocRoundedIcon from '@mui/icons-material/TocRounded';
